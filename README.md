@@ -1,6 +1,32 @@
 # tool-CheckWebsite
 
-<h2> 🚀 &nbsp; Here is the differents version of the script available </h2>
+## Introduction
+
+This tool is to able you to scan if a site exist for a given name.
+
+## How does it works ? 
+
+It simply add a list of TLD from tldList.txt to a given name and then check the HTTP code that the server return. 
+It checks http and https.
+
+## How to use it ?
+
+1) get the complete list of TLDs here : https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+2) save it as "tldList.txt"
+3) Launch the script adapted to the shell you are using.
+4) Follow the prompt.
+
+## Exemple 
+
+<img src="https://josephlerouxbook.github.io/videoToUse/rick-roll-rick-ashley.gif" alt="ThatsARickRoll">
+
+## What's next ? 
+
+We will add : 
+- Extensive mode : check for special characteres between letters.
+- Script hub : launch the hub, then choose which type (powershell / bash) you wanna use.
+
+## Here is the differents version of the script available
 <p align="left">
 <a href="https://github.com/JosephLerouxBook/tool-CheckWebsite/blob/main/GetWebSite.ps1"> 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" alt="powershell" width="45" height="45"/>
