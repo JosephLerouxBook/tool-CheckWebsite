@@ -18,10 +18,9 @@ It checks http and https.
 
 ## Exemple 
 
-<video src="https://josephlerouxbook.github.io/videoToUse/CheckWebsiteTest2.mp4?raw=true" 
-       width="600" 
-       controls>
-</video>
+![Exemple video as a gif](https://josephlerouxbook.github.io/videoToUse/CheckWebsiteTest2_GIF(1).gif)
+
+[![Uncompressed Video](https://josephlerouxbook.github.io/videoToUse/PicCheckWebsite.png)](https://josephlerouxbook.github.io/videoToUse/CheckWebsiteTest2.mp4)
 
 ## What's next ? 
 
