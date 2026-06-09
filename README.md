@@ -18,7 +18,10 @@ It checks http and https.
 
 ## Exemple 
 
-<img src="https://josephlerouxbook.github.io/videoToUse/rick-roll-rick-ashley.gif" alt="ThatsARickRoll">
+<video src="https://josephlerouxbook.github.io/videoToUse/CheckWebsiteTest2.mp4?raw=true" 
+       width="600" 
+       controls>
+</video>
 
 ## What's next ? 
 
