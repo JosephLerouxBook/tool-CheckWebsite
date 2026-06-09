@@ -61,9 +61,7 @@ goodUrl=$(printf "%s\n" "${names_to_test[@]}" | xargs -I % -P 10 bash -c '
             newurl="${proto}://${name_var}.${tld}"
             
             # Utilisation de la notation explicite pour le code HTTP
-            status_code=$(curl -s -L -k -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" \
-             --connect-timeout 5 --max-time 5 \
-             -o /dev/null -w "%{http_code}" "$newurl")
+            status_code=$(curl -s -L -k -4 -A "Mozilla/5.0" --connect-timeout 3 --max-time 4 -o /dev/null -w "%{http_code}" "$newurl")
             # Si le code est vide ou contient une erreur de format, on force 000
             if [[ ! "$status_code" =~ ^[0-9]{3}$ ]]; then
                 status_code="000"
