@@ -17,7 +17,7 @@ It checks http and https.
 4) Follow the prompt.
 
 ## Exemple 
-![Whatitlookslike](https://josephlerouxbook.github.io/videoToUse/CheckWebsiteTest.gif)
+![Whatitlookslike](https://josephlerouxbook.github.io/videoToUse/CheckWebsite.gif)
 
 *Uncompressed video [here](https://josephlerouxbook.github.io/videoToUse/CheckWebsiteTest2.mp4).*
 
